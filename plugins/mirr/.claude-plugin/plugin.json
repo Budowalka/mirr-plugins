@@ -1,0 +1,6 @@
+{
+  "name": "mirr",
+  "description": "Konektor Mirr — CRM dla firm budowlanych. Czytaj i zapisuj projekty, wyceny, faktury kosztowe, czas pracy i cennik bezpośrednio z czatu, przez bezpieczny konektor MCP. Dane żyją w Mirr (system zapisu), a Ty pracujesz z nimi w swoim Claude.",
+  "version": "1.0.0",
+  "author": { "name": "Budowalka", "email": "hej@budowalka.pl" }
+}

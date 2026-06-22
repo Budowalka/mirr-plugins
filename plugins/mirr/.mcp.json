@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mirr": {
+      "type": "http",
+      "url": "https://app.smova.se/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MIRR_TOKEN}"
+      }
+    }
+  }
+}

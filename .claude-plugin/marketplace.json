@@ -1,0 +1,15 @@
+{
+  "name": "mirr-plugins",
+  "description": "Prywatny marketplace Budowalki — konektor i skille Mirr dla klientów (CRM budowlany przez Claude Code).",
+  "owner": {
+    "name": "Budowalka",
+    "email": "hej@budowalka.pl"
+  },
+  "plugins": [
+    {
+      "name": "mirr",
+      "source": "./plugins/mirr",
+      "description": "Konektor Mirr — czytaj i zapisuj dane firmy budowlanej (projekty, wyceny, faktury, czas) z poziomu czatu."
+    }
+  ]
+}
