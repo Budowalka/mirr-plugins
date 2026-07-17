@@ -16,7 +16,16 @@ Plugin łączy [Claude Code](https://claude.com/claude-code) z **[Mirr](https://
 
 ## Instalacja
 
-### Najprościej: niech Claude zrobi to za Ciebie
+### W aplikacji Claude na komputerze (najprościej — bez klucza)
+
+1. W ustawieniach Claude wejdź w **Plugins** i kliknij **Add** → **Add marketplace**.
+2. Wybierz **Add from a repository** i wpisz: `Budowalka/mirr-plugins`
+3. Dodaj plugin **Mirr** plusem.
+4. Claude poprosi o zalogowanie — podaj swój mail i hasło do Mirr i kliknij **Zezwól**. Gotowe.
+
+Połączenie widzisz (i możesz unieważnić) w Mirr na stronie [Agenci](https://app.mirr.pl/agents).
+
+### W Claude Code (terminal): niech Claude zrobi to za Ciebie
 
 Masz już zainstalowany Claude Code? Przygotuj swój klucz API, otwórz Claude Code i wklej mu tę wiadomość:
 
