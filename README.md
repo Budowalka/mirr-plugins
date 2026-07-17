@@ -16,21 +16,47 @@ Plugin łączy [Claude Code](https://claude.com/claude-code) z **[Mirr](https://
 
 ## Instalacja
 
-1. W terminalu dodaj marketplace i zainstaluj plugin:
+### Najprościej: niech Claude zrobi to za Ciebie
+
+Masz już zainstalowany Claude Code? Przygotuj swój klucz API, otwórz Claude Code i wklej mu tę wiadomość:
+
+> Zainstaluj konektor Mirr. Wykonaj po kolei: (1) `claude plugin marketplace add Budowalka/mirr-plugins`, (2) `claude plugin install mirr@mirr-plugins`, (3) zapytaj mnie o klucz API i dopisz do mojego pliku `~/.zshrc` linijkę `export MIRR_TOKEN="<mój-klucz>"`, (4) na końcu poproś, żebym zamknął i uruchomił Claude Code ponownie.
+
+Claude wykona wszystkie kroki sam i poprosi Cię tylko o wklejenie klucza. Po ponownym uruchomieniu sprawdź połączenie: napisz w czacie „pokaż moje projekty w Mirr".
+
+### Ręcznie, krok po kroku
+
+Każdy krok to jedna komenda: wklej ją do terminala i naciśnij Enter.
+
+1. Otwórz aplikację **Terminal**.
+
+2. Dodaj katalog pluginów Budowalki:
 
    ```bash
    claude plugin marketplace add Budowalka/mirr-plugins
+   ```
+
+3. Zainstaluj plugin Mirr:
+
+   ```bash
    claude plugin install mirr@mirr-plugins
    ```
 
-2. Ustaw klucz API w środowisku (macOS, terminal):
+4. Zapisz swój klucz API — **podmień `tutaj-twój-klucz` na klucz otrzymany od Budowalki** (cudzysłowy zostaw):
 
    ```bash
    echo 'export MIRR_TOKEN="tutaj-twój-klucz"' >> ~/.zshrc
+   ```
+
+5. Przeładuj ustawienia terminala, żeby klucz zaczął działać:
+
+   ```bash
    source ~/.zshrc
    ```
 
-3. Uruchom Claude Code na nowo i sprawdź połączenie — napisz w czacie: „pokaż moje projekty w Mirr".
+6. Zamknij Claude Code i uruchom go ponownie — plugin ładuje się przy starcie.
+
+7. Sprawdź połączenie — napisz w czacie: „pokaż moje projekty w Mirr". Jeśli Claude pokaże Twoje projekty, wszystko działa.
 
 ## Aktualizacja
 
