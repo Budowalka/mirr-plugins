@@ -103,13 +103,16 @@ Etapy ETICS rozliczane za m² elewacji netto:
 | Zakres | Komponent w cenniku |
 |---|---|
 | Rusztowania, listwa startowa, gruntowanie, styropian, kołkowanie | `Ocieplenie EPS biały/grafitowy` |
+| Jak wyżej, ale WEŁNA — klejenie całopowierzchniowe (~13 kg/m² zamiast 9,39), kołki wyłącznie stalowe, bez pianokleju, robocizna etapu ×1,16 | `Ocieplenie wełną mineralną` |
 | Siatka, klej 2×, narożniki, obróbka okien | `Siatkowanie pojedyncze` |
 | Szlifowanie i podkład pod tynk | `Szlifowanie + grunt pod tynk` |
 | Tynk / mozaika / efekt dekoracyjny | wg wybranego wykończenia, **własna powierzchnia** |
 
 Pozycje o własnych jednostkach idą 1:1: parapety (mb), listwa startowa (mb),
 LED (mb), bonie (mb), kratki i drzwiczki (szt), kontenery (szt), toi-toi,
-transport, rusztowania i prace przygotowawcze (m²).
+transport, rusztowania i prace przygotowawcze (m²). Rury spustowe kotwiczą
+się w `Demontaż i montaż rur spustowych` (zmiana nazwy 2026-08-03 — cennikowe
+55 zł/mb zawsze obejmowało obie operacje).
 
 **Szukaj komponentu po NAZWIE, nie po slugu.** `list_pricing_items` zwraca
 `external_id` w formacie `PI-XXXXXXXX` — jest generowany i nie da się go
